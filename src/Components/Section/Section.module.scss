@@ -1,0 +1,88 @@
+.secOne {
+  width: 100%;
+  height: 60em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F0F0F2;
+
+  .containerFirst {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .text {
+      width: 50%;
+      padding: 40px 0;
+      flex-direction: column;
+
+      h1 {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 76px;
+        font-weight: 700;
+        font-style: normal;
+        color: #0B1C39;
+
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 400;
+        font-style: normal;
+        color: #3D3E40;
+        line-height: 27px;
+        margin-top: 18px;
+
+      }
+
+      button {
+        width: 30%;
+        background-color: #4E4E4E;
+        padding: 15px 0;
+        border: none;
+        color: white;
+        margin-top: 18px;
+      }
+
+
+    }
+
+img{
+  width:  90.5%;
+}
+
+  }
+
+
+}
+
+@media screen and (min-width:300px) and (max-width:576px) {
+ .secOne{
+  height: 45rem;
+      .containerFirst{
+        width: 98%;
+      .text{
+        width: 85%;
+        h1{
+          font-size: 35px;
+        }
+        p{
+          font-size: 14px;
+        }
+        button{
+          width: 65%;
+        }
+      }
+
+        .img{
+              display: none;
+          }
+             
+        
+}
+       }
+      
+  }
